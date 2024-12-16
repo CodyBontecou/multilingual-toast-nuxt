@@ -1,4 +1,3 @@
-// composables/useLocalStorage.ts
 export const useLocalStorage = () => {
     const setValue = (key: string, value: any): void => {
         if (process.client) {
